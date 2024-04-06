@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,6 +14,7 @@
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
+            <boby> somthing </body>
             <li><a href="#education">Education</a></li>
             <li><a href="#internship">Internship</a></li>
             <li><a href="#projects">Projects</a></li>
