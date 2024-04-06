@@ -1,50 +1,148 @@
 <!DOCTYPE html>
-//<html lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nithin D S</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
 </head>
-<body>
-    <header>
-        <h1>Nithin D S</h1>
-    </header>
+<body id="body">
+    <a href="#body"><img class="scroll" src="images/scroll.png" alt="scroll"></a>
+    <div class=header_div>
+        <a href="#about"><p class="header_text">About me</p></a>
+        <a href="#exp"><p class="header_text">Experience</p></a>
+        <a href="#skill"><p class="header_text">Skills</p></a>
+        <a href="#contact"><p class="header_text">Contact</p></a>
+        <a href="https://github.com/nithinbhargav007/" target="_blank"> 
+            <img class=github src="images/github.png" alt="github" > 
+        </a>
+        <a href="https://www.linkedin.com/in/nithinkumarm/" target="_blank"> 
+            <img class=linkedin src="images/linkedin.png" alt="linkedin">
+        </a>
+        <a href="https://twitter.com/3158Nithin/" target="_blank">
+            <img class=twitter src="images/twitter.png" alt="twitter">
+        </a>
+        
+    </div>
+     
+    <div class=name_div>
+        <img class="background1" src="images/background3.jpg" alt="background">
+        <img class=profile_pic src="images/Nithin.jpeg" alt="background">
+        <h1 class="introline"> Hi , I'm Nithin Kumar</h1>
+        <h1 class="introline2">ASIC Verification Engineer  |  Python Developer  | Web designer </h1>
+    </div>
 
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <boby> somthing </body>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#internship">Internship</a></li>
-            <li><a href="#projects">Projects</a></li>
+    <div class=about_div id="about">
+        <img class="background2" src="images/background2.jpg" alt="background">
+        <h1 class="aboutline"> About Me</h1>
+        <h1 class="aboutline2"> Hi there, Nice to meet you. First of all, thanks for taking time to know more about me. My name is Nithin D S and I am from Bangalore, Karnataka (India). My hometown is Davanagere. I have completed my Bachelors of Engineering(B.E) in Electronics and communication from M.S.Ramaiah Institute of Technology. 
+       
+        <br>
+        I spend my free time doing web designing, coding in python or learning new technologies online. I'm passionate about Electronics, Technology, Space Exploration, Gadgets and everything related to science. My hobbies include reading books, travelling , cycling , playing tennis, chess and badminton. Most of the time you will find me occupied learning something new or spending quality time with family and friends. Lets get in touch and discuss more !!
+        </h1>
+    </div>
+
+    <div class=exp_div id="exp">
+        <img class="background3" src="images/background6.jpg" alt="background">
+        <h1 class="expline">Work Experience</h1>
+        <h1 class="expline2"> 
+            <img class = "intel_logo" src="images/intel.png" alt="intel">
+            <img class="arm_logo" src="images/arm.png" alt="arm">
+            <img class="elxsi_logo" src="images/elxsi.png" alt="elxsi">
+        <p class="heading_intel">Graphics Performance Verification Engineer | INTEL Corporation | October 2020 to Present</p> 
+        <ul class="arm_text">
+            <li>Role : Lead Performance verification of L3 cluster in the Graphics pipeline for all projects</li>
+            <li>Responsible for planning performance scenarios, coding tests and testbench components in SV and UVM</li>
+            <li>Good knowledge on the complete verification cycle, milestones and deliverables</li>
+            <li>Sound knowledge of the Graphics pipeline and Architecture</li>
+            <li>Good exposure to Performance debugs w.r.t Bandwidth and latency at Cluster, GT, SOC and Emulation level</li>
+            <li>Familiar with discreate, integrated and server side Graphics solutions</li>
         </ul>
-    </nav>
+        <br>
+        <p class="heading_arm"> Architecture Verification Engineer | ARM Embedded Technology |  August 2018 to September 2020</p>
+        <ul class="arm_text">
+            <li>Developed tests using ARM Assembly for v7A and v8A Architecture profiles within ATEG group</li>
+            <li>Familiar with Arm Architecture concepts and worked on ISA, Floating point, Exception Model</li>
+            <li>Good exposure to Architecture debug using tarmac trace</li>
+            <li>Coded multiple automation scripts using Python for TestDBV2 Activity</li>
+            <li>Good knowledge on ARM ACK release,ModelDebugger & CentOS checks</li>
+        </ul>
+        <br>
+        <p class="heading_elxsi">ASIC Verification Engineer | TATA Elxsi  |  August 2016 to September July 2018</p>
+        <ul class="arm_text">
+            <li>I was part of 4 different IP and SOC level projects for RENESAS client</li>
+            <li>Good exposure to coding UVM Testbench components like Sequencer, driver and scoreboard </li>
+            <li>Hands-on exposure to writing system verilog assertions and coverage</il>
+            <li>Good knowledge of AXI , EThernet , CAN and CAN-FD protocols</li>
+        </ul>
+        </h1>
+    </div>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Insert your introduction here.</p>
-    </section>
+    <div class="skills_div" id="skill">
+        <img class="background4" src="images/background5.jpg" alt="background">
+        <h1 class="skillline"> Professional Skills</h1>
+        <h1 class="skillline2">
+             <img class="verilog" src="images/verilog.png" alt="verilog">
+             <img class="sv" src="images/sv.png" alt="sv">
+             <img class="uvm" src="images/uvm.png" alt="uvm">
+             <img class="amba" src="images/amba.png" alt="amba">
+             <img class="python" src="images/python.png" alt="python">
+             <img class="cpp" src="images/cpp.png" alt="cpp">
+             <img class ="c" src="images/c.png" alt="c">
+             <img class="vim" src="images/vim.png" alt="vim">
+             <img class="fe" src="images/fe.png" alt="fe">
+             <img class="perl" src="images/perl.png" alt="perl">
+             <img class="ethernet" src="images/ethernet.png" alt="ethernet">
+             <img class="git" src="images/git.png" alt="git">
+             <img class="fpga" src="images/fpga.png" alt="fpga">
+             <img class="debug" src="images/debug.png" alt="debug">
+             <img class="can" src="images/can.png" alt="can">
+             <img class="os" src="images/os.png" alt="os">
+            </h1>
 
-    <section id="education">
-        <h2>Education</h2>
-        <p>Insert your education details here.</p>
-    </section>
+    </div>
 
-    <section id="internship">
-        <h2>Internship</h2>
-        <p>Insert details about your internship experience here.</p>
-    </section>
+    <div class=contact_div id="contact">
+        <img class="background5" src="images/background7.jpg" alt="background">
+        <h1 class="contactline"> Get in touch with me ...</h1>
+        <h1 class="contactline2">     <table border>
+                <tr>
+                    <td><strong> Email ID </strong></td>
+                    <td><a href="mailto: nithinbhargav007@gmail.com" target="_blank">nithinbhargav007@gmail.com</a></td> 
+                </tr>
+                <tr>
+                    <td><strong>Linkedin </strong></td>
+                    <td><a href="https://www.linkedin.com/in/nithinkumarm" target="_blank">www.linkedin.com/in/nithinkumarm</a></td> 
+                </tr>
+                <tr>
+                    <td><strong>GitHub </strong></td>
+                    <td><a href="https://github.com/nithinbhargav007" target="_blank">https://github.com/nithinbhargav007</a></td> 
+                </tr>
+                <tr>
+                    <td><strong>Website </strong></td> 
+                    <td><a href="nithinbhargav007.github.io/web_development/" target="_blank">https://nithinbhargav007.github.io/web_development</a></td> 
+                </tr>
+                <tr>
+                    <td><strong>Instagram </strong></td>
+                    <td><a href="https://www.instagram.com/nithinbhargav007" target="_blank">https://www.instagram.com/nithinbhargav007</a></td> 
+                <tr>
+                    <td><strong>Facebook </strong></td>
+                    <td><a href="https://www.facebook.com/nithinbhargav007" target="_blank">https://www.facebook.com/nithinbhargav007</a></td> 
+                </tr>
+                <tr>
+                    <td><strong>Twitter </strong></td>
+                    <td><a href="https://twitter.com/3158Nithin" target="_blank">https://twitter.com/3158Nithin</a></td> 
+                </tr>   
+                
+                </tr>
+        </table>
+        </h1>
+    </div>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Insert details about your projects here.</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 My Portfolio</p>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
-</html>
+</html></div>
